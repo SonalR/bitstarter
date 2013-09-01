@@ -5,10 +5,10 @@
     <title>Upamana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="https://raw.github.com/noizwaves/bootstrap-social-buttons/master/social-buttons.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="http://twitter.github.io/bootstrap/javascript.html#transitions"></script>
     <script type="text/javascript">
 
@@ -149,6 +149,10 @@
   </head>
 
   <body>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <!---Mobile friendly navbar adopted from example. --->
     <!---http://twitter.github.io/bootstrap/examples/starter-template.html--->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -461,7 +465,7 @@
   <!--- for the FAQ we indtroduce a little bit of JS using the accordian. --->
   <!--- this brings in jquery.js and bootstrap.js as dependencies. --->
   <!--- http://twitter.github.io/bootstrap/javascript.html#collapse --->
-  <div class="row fluid faq">
+  <div class="row fluid faq" id="faq">
     <div class="span10 offset1">
       <h3>FAQ</h3>
       <div class="accordian" id="accordian2">
