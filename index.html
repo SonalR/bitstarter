@@ -465,6 +465,36 @@
   <!--- for the FAQ we indtroduce a little bit of JS using the accordian. --->
   <!--- this brings in jquery.js and bootstrap.js as dependencies. --->
   <!--- http://twitter.github.io/bootstrap/javascript.html#collapse --->
+
+  <div class="accordion" id="accordion2">
+    <div class="accordion-group">
+      <div class="accordion-heading">
+	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+          Collapsible Group Item #1
+	</a>
+      </div>
+      <div id="collapseOne" class="accordion-body collapse in">
+	<div class="accordion-inner">
+          Anim pariatur cliche...
+	</div>
+      </div>
+    </div>
+    <div class="accordion-group">
+      <div class="accordion-heading">
+	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+          Collapsible Group Item #2
+	</a>
+      </div>
+      <div id="collapseTwo" class="accordion-body collapse">
+	<div class="accordion-inner">
+          Anim pariatur cliche...
+	</div>
+      </div>
+    </div>
+  </div>
+
+
+
   <div class="row fluid faq" id="faq">
     <div class="span10 offset1">
       <h3>FAQ</h3>
